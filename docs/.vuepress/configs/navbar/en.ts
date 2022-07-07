@@ -7,18 +7,25 @@ export const navbarEn: NavbarConfig = [
     link: 'https://airdb.wiki',
   },
   {
-    text: 'Docs',
+    text: 'Environment',
     children: [
       {
-        text: 'git',
+        text: 'Network',
         children: [
-          { text: 'CLI', link: '/reference/cli.html', },
+          { text: 'Mutil Live', link: '/reference/cli.html', },
+          { text: 'DMZ', link: '/reference/cli.html', },
+        ],
+      },
+      {
+        text: 'Disaster Recovery',
+        children: [
+          { text: 'DR', link: '/reference/cli.html', },
         ],
       },
     ],
   },
   {
-    text: 'Program',
+    text: 'Account',
     children: [
       {
         text: 'Overall',
@@ -42,12 +49,18 @@ export const navbarEn: NavbarConfig = [
     ],
   },
   {
-    text: 'APM',
+    text: 'Anti Fraud',
     children: [
       {
-        text: 'Prometheus',
+        text: 'KYC',
         children: [
-          '/contributing.md',
+          '/antifraud/README.md',
+        ],
+      },
+      {
+        text: 'AML',
+        children: [
+          '/antifraud/README.md',
         ],
       },
     ],
